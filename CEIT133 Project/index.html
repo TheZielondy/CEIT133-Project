@@ -10,15 +10,38 @@
         body{
             background-color: #1b1b1b;
         }
-        header{
-            position: fixed;
-            background-color: #181818;
-        }
         h1, a, p{
             color: #e8e8e8;
         }
         a {
             text-decoration: none;
+        }
+        header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 50px;
+            background-color: #181818;
+        }
+        nav{
+            display:flex;
+            align-items: center;
+        }
+        .logo{
+            flex: 0 0 auto;
+        }
+        .menuItems{
+            margin-left: 700px;
+        }
+        ul#Items{
+            list-style-type: none;
+        }
+        #Items{
+            display:flex;
+        }
+        #Items li{
+            margin-left:20px;
         }
 
     </style>
@@ -27,28 +50,30 @@
 <body style="padding-top: 0px;">
     <!-- Header -->
     <header class="header">
-        <div class="headerBar">
-            <div class="headerItems">
+            <nav>
                 <!-- logo -->
-                <div class="Items">
-                    <div class="logo">
-                        <img src="/images/1.JPG" alt="Logo">
-                    </div>
-                 </div>
-                 <!-- menuitems -->
-                 <div class="Items">
-                    <a href="#">Item1</a>
-                    <a href="#">Item2</a>
-                    <a href="#">Item3</a>
-                    <a href="#">Item4</a>
-                  </div>
-                  <div class="Items"></div>
-            </div>
-        </div>
+                <div class="logo">
+                    <img src="/images/1.JPG" alt="Logo">
+                </div>
+                <!-- menuitems -->
+                <div class="menuItems">
+                    <ul id="Items">
+                        <li><a href="#">Item1</a></li>
+                        <li><a href="#">Item2</a></li>
+                        <li><a href="#">Item3</a></li>
+                        <li><a href="#">Item4</a></li>
+                    </ul>
+                </div>
+            </nav>
+
     </header>
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, dolorum.</p>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <!-- main  -->
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam distinctio dolores nemo quas! Dolorem placeat vitae voluptate nihil quas recusandae corporis id facere officia nulla? Explicabo nemo sit eum, quos placeat aspernatur veritatis eos quas ullam at corporis optio. Repellendus dolor vero, quas maiores possimus cumque? Minus, velit nesciunt repellat dolorem at deleniti mollitia earum esse sit voluptates quos alias, reiciendis fuga unde sunt officia et fugit facilis error commodi qui? Voluptatibus reprehenderit molestiae et ullam ex quia, cupiditate vitae iste alias est vero similique ea eos tempore, esse fugiat quo modi architecto blanditiis suscipit excepturi reiciendis veniam quos. Aliquam quisquam magnam dolorem. Consequuntur suscipit delectus nam. Nihil quibusdam, sint repellendus tempore velit suscipit temporibus, incidunt laborum nobis omnis rem adipisci voluptate tempora accusamus deleniti placeat consequuntur? A in, nostrum commodi magnam explicabo cum, dolor illum doloremque dicta mollitia aspernatur alias incidunt neque saepe recusandae aliquam non, consequuntur dolore. Rerum, commodi, quam nam inventore odit deserunt quaerat sunt quas facilis perferendis itaque libero dolore fugiat assumenda dolorem repudiandae recusandae eum ut est? Accusamus voluptatem non adipisci numquam possimus officia ab magni, blanditiis impedit! Provident consequatur ducimus dignissimos esse recusandae nulla laborum. Voluptas ab quas cupiditate eius iure. Temporibus, quam tenetur.</p>
+    </main>
 
     
     <!-- Footer -->
