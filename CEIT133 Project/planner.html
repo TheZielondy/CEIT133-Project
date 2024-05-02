@@ -16,21 +16,38 @@
   </style>
 </head>
 <body>
-  <nav class="navbar fixed-top">
-    <div class="container">  <a class="navbar-brand handwrite" href="./index.html">My Agenda</a>
-      <ul class="nav navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="./planner.html">Agenda Planner</a></li>
-        <li class="nav-item"><a class="nav-link" href="./contact.html">Help</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Account</a></li>
-      </ul>
+  <nav class="navbar">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link navbar-logo handwrite" href="./index.html">My Agenda</a></li>
+      <li class="nav-item"><a class="nav-link" href="./planner.html">Agenda Planner</a></li>
+      <li class="nav-item"><a class="nav-link" href="./contact.html">Help</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Account</a></li>
+    </ul>
     </div>
   </nav>
+  <button class="hamburger">
+    <div class="bar one"></div>
+    <div class="bar snd"></div>
+    <div class="bar three"></div>
+</button>
+<nav class="hamburgermenu">
+  <div class="line"></div>
+  <ul>
+    <li><a href="./index.html">Home</a></li>
+    <li><a href="./aboutme.html">Agenda</a></li>
+    <li><a href="./contactme.html">Help</a></li>
+    <li><a href="#">Account</a></li>
+  </ul>
+  <div class="line"></div>
+</nav>
   <main>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   </main>
 
   <footer>
-    <img src="./images/logo.png" alt="logo" width="250px">
+    <div class="footer-img">
+      <a href="https://metu.edu.tr/"><img src="./images/metu.png" alt="metu-logo" width="150px"></a>
+    </div>
     <ul>
       <li><a href="./index.html">Home</a></li>
       <li><a href="./planner.html">Agenda Planner</a></li>
@@ -42,4 +59,5 @@
       <p>Highly inspired by <a href="https://hardstyle.com/en">HardStyle</a></p>
     </div>
   </footer>
+  <script src="./script.js"></script>
 </body>
